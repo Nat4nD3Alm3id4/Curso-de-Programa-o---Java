@@ -1,0 +1,21 @@
+public static void main(String[] args) {
+        Scanner Input = new Scanner(System.in);
+
+       Scanner input = new Scanner(System.in);
+
+       System.out.println("Caluladorazinha de área e perimetro do retângulo S2" );
+       System.out.println("Só aceitamos números ok?");
+
+       System.out.println("Coloque ai a base de seu retângulo em centimetros vei");
+       int base = input.nextInt(); //input do valor da base
+
+       System.out.println("agora é altura do retângulo em centimetros brother");
+       int alt = input.nextInt(); //input no valor da altura
+
+       System.out.println("Tome ai o perimetro: " + ((base*2) + (alt*2)) + "cm");
+       System.out.println("Tome agora a área pai: " + base*alt + "cm²");
+
+       input.close();
+    
+        
+    }
